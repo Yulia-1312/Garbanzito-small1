@@ -31,7 +31,7 @@ form {
   text-align: center;
 }
 .class-body {
-  background-image: url(images/background.png);
+  background: #cde9ff;
   background-size: cover;
   border-radius: 5px;
 }
