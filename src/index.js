@@ -56,6 +56,13 @@ function displayWeatherCondition(response) {
   let city = response.data.name;
   let h1 = document.querySelector("h1");
   h1.innerHTML = city;
+  let description = document.querySelector("#description");
+  description.innerHTML = response.data.weather[0].description;
+  let iconElement = document.querySelector("#main");
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 function suchen(event) {
   event.preventDefault();

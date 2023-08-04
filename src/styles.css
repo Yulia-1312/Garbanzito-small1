@@ -69,3 +69,6 @@ form {
   margin: 0auto;
   padding: 5px 10px -10px 2px;
 }
+#description {
+  text-transform: capitalize;
+}
