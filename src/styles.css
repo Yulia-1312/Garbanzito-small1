@@ -16,7 +16,6 @@ h1 {
 }
 h3 {
   text-align: center;
-  padding: 10px;
   color: black;
 }
 ul {
@@ -29,6 +28,9 @@ img {
 }
 form {
   text-align: center;
+}
+small {
+  padding: 10px 10px 0px 15px;
 }
 .class-body {
   background-image: url("../images/background.png");
@@ -71,4 +73,10 @@ form {
 }
 #description {
   text-transform: capitalize;
+}
+#celsius,
+#fahrenheit {
+  position: relative;
+  font-size: 16px;
+  top: -10px;
 }
