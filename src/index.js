@@ -19,7 +19,7 @@ let days = [
   "Wednesday",
   "Thursday",
   "Friday",
-  "Saturday"
+  "Saturday",
 ];
 let months = [
   "January",
@@ -33,7 +33,7 @@ let months = [
   "September",
   "Oktober",
   "November",
-  "December"
+  "December",
 ];
 let currentYear = today.getFullYear();
 let currentDay = days[today.getDay()];

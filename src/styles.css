@@ -1,10 +1,14 @@
+html {
+  height: 100%;
+  width: 100%;
+}
 body {
   background: radial-gradient(
-    circle at 7.5% 24%,
+    circle at 7.5% 100%,
     rgb(237, 161, 193) 0%,
     rgb(250, 178, 172) 25.5%,
-    rgb(190, 228, 209) 62.3%,
-    rgb(215, 248, 195) 93.8%
+    rgb(190, 228, 209) 60.3%,
+    rgb(215, 248, 195) 64.8%
   );
   background-repeat: no-repeat;
   font-family: monospace;
@@ -68,8 +72,14 @@ small {
 }
 .container {
   display: block;
-  margin: 0auto;
+  margin: 0 auto;
   padding: 5px 10px -10px 2px;
+}
+.link {
+  text-align: center;
+  margin-top: 25px;
+  opacity: 0.7;
+  color: white;
 }
 #description {
   text-transform: capitalize;
