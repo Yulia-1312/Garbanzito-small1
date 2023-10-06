@@ -89,9 +89,9 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         ` <div class="col">
-      <div class="card">
+      <div class="card five-days">
         ${formatDay(forecastDay.dt)}
-        <img src="http://openweathermap.org/img/wn/${
+        <img class="icons" src="http://openweathermap.org/img/wn/${
           forecastDay.weather[0].icon
         }@2x.png" alt="" width="30" />
         <div class="weather-forecast-temperatures">
